@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="320dp"
+        android:id="@+id/tswira"
+        android:src="@drawable/androidrobots"/>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:src="@drawable/user"
+        android:layout_below="@id/tswira"
+        android:layout_marginTop="10dp"
+        android:id="@+id/khlih"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="plese entrer email"
+        android:layout_toRightOf="@id/khlih"
+        android:layout_below="@id/tswira"
+        android:inputType="textEmailAddress"
+        android:id="@+id/hakak"
+        />
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:src="@drawable/padlock"
+        android:layout_below="@id/khlih"
+        android:layout_marginTop="10dp"
+        android:id="@+id/kfel"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="plese entrer password"
+        android:layout_toRightOf="@id/kfel"
+        android:layout_below="@id/hakak"
+        android:inputType="textPassword"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CANT LOGIN?"
+        android:layout_below="@id/kfel"
+        android:layout_marginTop="30dp"
+        android:textSize="18dp"
+        android:textColor="#EC5317"
+        android:id="@+id/jeneb"
+        />
+
+    <CheckBox
+        android:id="@+id/box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kfel"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:onClick="onCheckboxClicked"
+        android:text="remamber me"
+        android:textSize="20dp"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/box"
+        android:layout_marginTop="-7dp"
+        android:gravity="center"
+        android:text="LOG IN"
+        android:layout_margin="20dp"
+        android:id="@+id/button"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="new to Androidappguide"
+        android:textSize="23dp"
+        android:layout_below="@id/button"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/ktba"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ktba"
+        android:layout_centerHorizontal="true"
+        android:text="open new account"
+        android:textColor="#2E42B1"
+        android:textSize="29dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

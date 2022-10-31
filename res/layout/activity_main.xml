@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<TextView-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!-- xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:text="hallo word"-->
+<!--    android:textColor="@color/black"-->
+<!--    android:fontFamily="serif"-->
+<!--    android:background="#CFCCCC"-->
+<!--    android:textSize="18pt"-->
+<!--    android:layout_gravity="center"-->
+<!--    android:scaleType="centerCrop"-->
+
+<!--/>-->
+<!--<ImageView-->
+<!--    android:layout_width="410dp"-->
+<!--    android:layout_height="420dp"-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:src="@drawable/culture"-->
+<!--    android:layout_gravity="center"-->
+<!--    android:scaleType="centerInside"-->
+<!--    android:background="#CFCCCC"-->
+
+
+<!--/>-->
+<!--<EditText-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:hint="enter your phone"-->
+<!--    android:inputType="phone"-->
+<!--    android:layout_gravity="center"-->
+
+
+<!--    />-->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="red"
+    android:layout_alignParentLeft="true"
+    android:backgroundTint="#CD0E0E"
+
+    />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="orange"
+        android:layout_centerHorizontal="true"
+    android:backgroundTint="#EF3F07"
+
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="yellow"
+        android:layout_alignParentRight="true"
+
+        android:backgroundTint="#F8E009"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="blue"
+        android:layout_centerInParent="true"
+        android:id="@+id/my_botton"
+        android:backgroundTint="#1937DC"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="green"
+        android:layout_toLeftOf="@id/my_botton"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+
+        android:backgroundTint="#2DDD34"
+
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/my_botton"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:text="indego"
+        android:backgroundTint="#370440"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:paddingHorizontal="@android:dimen/notification_large_icon_width"
+
+        android:backgroundTint="#90499C"
+        android:text="violet"
+
+        />
+
+
+
+</RelativeLayout>
